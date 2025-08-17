@@ -1,0 +1,56 @@
+{
+    "name": "PlayerArkanoid",
+    "maps": [
+        {
+            "name": "Movementark",
+            "id": "d2864819-8ac5-4a34-a142-45b9cc825a76",
+            "actions": [
+                {
+                    "name": "MovementArk",
+                    "type": "Value",
+                    "id": "a9652343-23b2-4944-a702-a38334e5f161",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "1d451a92-2a18-4fcf-a2df-e778b281d379",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovementArk",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "825c1021-7ebf-4593-9b89-002b56982dd8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovementArk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "e3339770-aec7-472b-a5fa-65af3d9b2874",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovementArk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
